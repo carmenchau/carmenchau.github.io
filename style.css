@@ -1,0 +1,44 @@
+/* This is a Comment */
+
+header #koala {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:35%;
+	height: 35%;
+}
+header{
+	background-color: #92dcd4;
+}
+
+nav{
+	display: block;
+}
+
+.navig{
+	background-color: navajowhite;
+    border: 2px solid;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+li{
+	display: inline;
+	padding: 110px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 25px;
+}
+
+body{
+	background-color: #ffdab9; 
+	margin: 0;
+}
+
+a img {
+	width: 30%; 
+	height: 500px; 
+	margin:calc(9%/6) calc(9%/6);
+}
