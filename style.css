@@ -13,10 +13,11 @@ header{
 
 div{
 	display: block;
+	background-image: url("turquoise_watercolor.PNG");
+	background-position: 150px 200px;
 }
 
 .navi{
-	background-color: navajowhite;
     border: 3px solid;
     font-size: 130%;
     font-weight: bold;
@@ -33,7 +34,7 @@ a {
 }
 
 body{
-	background-color: #ffdab9; 
+	background-image: url("turquoise_watercolor.PNG"); 
 	margin: 0;
 }
 
