@@ -1,4 +1,11 @@
 /* This is a Comment */
+html{
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
 
 header #koala {
 	display: block;
@@ -7,14 +14,9 @@ header #koala {
 	width:35%;
 	height: 35%;
 }
+
 header{
 	background-color: #92dcd4;
-}
-
-div{
-	display: block;
-	background-image: url("turquoise_watercolor.png"); 
-	background-position: 150px 200px;
 }
 
 .navi{
@@ -25,7 +27,7 @@ div{
 
 li{
 	display: inline;
-	padding: 110px;
+	padding: 70px;
 }
 
 a {
@@ -34,7 +36,7 @@ a {
 }
 
 body{
-	background-image: url("turquoise_watercolor.png"); 
+	background-image: url("watercolour_texture.jpg");
 	margin: 0;
 }
 
