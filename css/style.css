@@ -1,0 +1,227 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif; /*font-family for the website*/
+	background-color: white; 
+}
+
+.viewport {
+	min-height: 100vh;
+	min-width: 100%;
+	border: 5px solid black;
+}
+
+header {
+	height: 100px;
+	background-color: #FFC4D4; /*this is a shade of pink */
+} 
+/*===================== NAV BAR ===================*/
+#logo1{
+	border-radius: 50%; 
+	width: 90px;
+}
+.navham {
+	display: none;
+}
+.navmain{	
+	display: block;
+}
+/* ================================== *//*
+HOMEPAGE STYLE GOES NEXT
+/* ================================== */ 
+
+/*======hero section=======*/ 
+/* This section is going to be the same hero section as the interior(product) page */
+
+#hero{
+	background-image: url("../image/cafe3.jpg"); /* this images showcase of the Little Ghost's pop up cafe */
+	background-size: cover;
+	height: 82vh; 	
+}
+.herotext{
+	margin-top: 300px;
+}
+.button{ /* this button is use in the hero section, about section, instagram section, and the interior(product) section*/
+    font-size: 12px;
+    border: 3px solid #FFC4D4;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #FFC4D4;
+    color: #fff;
+}
+/*===============LOCATION SECTION=============*/
+#where{
+	background-color: white; 
+}
+#where h1{
+	text-align: center;
+	margin-top: 2%;
+}
+
+.map{
+	height: auto; 
+    width: auto; 
+    width: 450px; 
+    height: 300px;
+    margin-top: 1%;
+    margin-bottom:1%;
+    margin-left: 25%;
+}
+.map_place{ 
+	width: 50%; 
+	height: 370px; 
+	float: left; 
+} 
+.map_type{ 
+	margin-left: 50%; 
+	height: 370px; 
+	font-size: 20px;
+} 
+
+/*==============MENU SECTION==================*/
+
+#menu h1{
+	text-align: center;
+	margin-bottom: 20px; 
+	margin-top: 20px;
+}
+li{
+	list-style-type: none;
+}
+b{
+	font-size: 25px;
+}
+.menuleft{ /*is the menu left column*/
+	width: 50%; 
+	height: 110px; 
+	float: left; 
+	font-size: 20px;
+} 
+
+.menuright{ /*is the menu right column*/
+	margin-left: 50%; 
+	height: 110px; 
+	font-size: 20px;
+} 
+/*==================ABOUt SECTION============================*/
+#mission{ 
+	background-color: #D1EFF9; /*this colour is pale blue*/
+	background-size: cover;
+	text-align: center;
+}
+/*===============INSTAGRAM SECTION=======================*/
+#feature{
+	text-align: center;
+}
+
+.ig { /*sizing and spacing for the image in instagram section*/
+	height: auto; 
+    width: auto; 
+    width: 330px; 
+    height: 330px;
+    margin-top: 1%;
+    margin-bottom:1%;
+}
+
+
+/* ================================== *//*
+INTERIOR STYLE GOES NEXT
+/* ================================== */ 
+
+/* === Interior page Aka the produect page  ==== */ 
+
+#product{
+	text-align: center;	
+}
+#sub{
+	font-size: 20px
+}
+.item{ /*sizing and spacing for the image this section*/
+	height: auto; 
+    width: auto; 
+    width: 300px; 
+    height: 300px;
+    margin-top: 1%;
+    margin-bottom:1%;
+  	margin-left: 5%;
+  	margin-right: 3%
+}
+
+/*=========== footer section ==========*/
+ footer {
+ 	background-color: #D1EFF9; /*this colour is pale blue*/
+ }
+
+ #logo2{
+	border-radius: 50%; 
+	width: 200px;
+	margin-left: 43%;
+}
+#footernav{
+	text-align: center;
+}
+
+
+/*==========MEDIA ONLY SCREEN ==========*/
+@media only screen and (max-width: 575px) {
+	.navham{
+		display: block;
+	}
+	.navmain{
+		display: none;
+	}
+	#logo2{
+		text-align: center;
+	}
+
+}
+/* Flex Class stuff */
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 250px;
+	background-color: grey;
+}
+
+.flex-container div {
+	background-color: aliceblue;
+	margin: 20px;
+	min-width: 300px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 48px;
+	flex: 1 1 150px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.button-secondary {
+	font-size: 12px;
+	border: 3px solid peachpuff;
+	border-radius: 3px;
+	padding: 5px 10px;
+	margin-right: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+} 
+
+
+
+
+
