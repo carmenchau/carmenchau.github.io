@@ -58,7 +58,7 @@ HOMEPAGE STYLE GOES NEXT
 }
 /*===============LOCATION SECTION=============*/
 #where{
-	background-color: white; 
+	background-color:#FFFFFF; 
 }
 #where h1{
 	text-align: center;
@@ -163,6 +163,8 @@ INTERIOR STYLE GOES NEXT
 	border-radius: 50%; 
 	width: 200px;
 	margin-left: 43%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 #footernav{
 	text-align: center;
